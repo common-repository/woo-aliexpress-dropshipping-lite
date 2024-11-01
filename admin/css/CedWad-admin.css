@@ -1,0 +1,402 @@
+/*===================================
+=             typography            =
+===================================*/
+.CedWad_main_wrapper li {
+  color: #191E23;
+  font-family: Open sans;
+  font-size: 15px;
+  list-style: outside none none;
+  margin: 5px 0;
+}
+.CedWad_main_wrapper p ,.cedWad-filter-sec {
+  color: #191E23;
+  font-family: Open sans;
+  font-size: 15px;
+  list-style: outside none none;
+  margin: 10px 0;
+}
+.cedWad-filter-sec{
+  margin-bottom: 0;
+}
+.CedWad_main_wrapper h3  {
+  margin: 0;
+}
+.CedWad_main_wrapper a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.CedWad_main_wrapper ul li {
+  display: inline-block;
+  list-style: outside none none;
+}
+.CedWad_main_wrapper ul{
+  padding: 0;
+}
+.CedWad_main_wrapper input {
+  background: #fff none repeat scroll 0 0;
+  border: 1px solid #b4b9be;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
+  clear: none;
+  color: #555;
+  display: inline-block;
+  margin: -4px 4px 0 0;
+  outline: 0 none;
+  padding: 0;
+  text-align: left;
+  transition: border-color 0.05s ease-in-out 0s;
+  vertical-align: middle;
+}
+.CedWad_main_wrapper input.form-control[type="text"],  .CedWad_main_wrapper select.form-control {
+  border: 1px solid #d2dce8;
+  box-sizing: border-box;
+  font-family: ProximaNova,Arial,sans-serif;
+  font-size: 14px;
+  height: 32px;
+  line-height: 20px;
+  margin-right: -4px;
+  outline: medium none;
+  padding: 5px 8px;
+  margin: 0;
+}
+.CedWad_heading {
+  border-bottom: 2px solid #cccccc;
+  font-family: open sans;
+  margin-bottom: 25px;
+  padding: 4px 15px 15px;
+}
+.CedWad_plugin_wrapper tr td .edit a {
+  color: #007bff!important;
+}
+.CedWad_plugin_wrapper tr td .delete a{
+  color: #aa0000!important;
+}
+/*=====  End of   typography  ======*/
+/*====================================
+=            input fields & buttons            =
+====================================*/
+.CedWad_main_wrapper label {
+  display: inline-block;
+  margin-right: 15px;
+  max-width: 150px;
+  text-align: left;
+  width: 100%;
+}
+.CedWad_main_wrapper input {
+  border: 1px solid #ececec;
+  border-radius: 2px;
+}
+.CedWad_main_wrapper label,  .CedWad_main_wrapper input{
+  font-size: 14px;
+  font-family: open sans;
+  padding: 10px 7px;
+}
+.CedWad_main_wrapper input:focus,   .CedWad_main_wrapper select:focus,  .CedWad_main_wrapper textarea:focus {
+  border-color: #ececec!important;
+  box-shadow: 0 0 0.5em #888888!important;
+}
+.btn {
+  -moz-user-select: none;
+  background-image: none;
+  border: 1px solid #ececec;
+  border-radius: 4px;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857;
+  margin-bottom: 0;
+  margin-left: -15px;
+  padding: 6px 12px;
+  text-align: center;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+.CedWad_main_wrapper a.add_content{
+  background-color: #757575;
+  color: #fff;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+}
+.CedWad_main_wrapper .btn.focus, .CedWad_main_wrapper .btn:focus {
+  box-shadow: 0 0 0.5em #888888 !important;
+  outline: 0 none;
+}
+.CedWad_main_wrapper table th {
+  margin: 10px 0;
+  padding: 15px 0;
+}
+/*=====  End of input fields & buttons  ======*/
+/*==========================================
+=            main_wrapper_style            =
+==========================================*/
+.CedWad_padding_main {
+  background-color: #ffffff;
+  box-shadow: 0 0 0.5em #888888;
+  margin: 49px 0;
+  padding: 30px;
+  position: relative;
+}
+.clear {
+  clear: both;
+}
+/*=====  End of main_wrapper_style  ======*/
+.dropdown-content a:hover {background-color: #f1f1f1}
+.CedWad_plugin_wrapper {
+  margin: 0 auto;
+  max-width: 900px;
+}
+.CedWad_input_field_wrapper.CedWad_padding_main p.button {
+  text-align: center;
+}
+.CedWad_input_error_class{
+  border-color: red!important; 
+  border-width: 1px!important;
+  border-style: solid!important;
+}
+.CedWad_errormsg, .CedWad_errormsg_tracking, .CedWad_successmsg {
+  background: #000000 none repeat scroll 0 0;
+  border-radius: 4px;
+  color: #ffffff;
+  display: none;
+  padding: 7px 10px;
+}
+.error_msg_content, .error_msg_tracking_content, .success_msg_content {
+  display: table-cell;
+  font-family: open sans;
+  vertical-align: middle;
+  width: 100%;
+}
+.error_msg_content::after, .error_msg_tracking_content::after {
+  border-left: 10px solid rgba(0, 0, 0, 0);
+  border-right: 10px solid rgba(0, 0, 0, 0);
+  border-top: 10px solid #000000;
+  content: "";
+  left: 0;
+  position: absolute;
+  top: 12px;
+  transform: rotate(90deg);
+}
+.CedWad_credentials_row_wrap{
+  margin-bottom: 10px;
+}
+#CedWad_transactionId ,#CedWad_appKey{
+  margin-bottom: 10px;
+  width:100%;
+}
+/*.CedWad_successmsg.CedWad_successmsg_wrap {
+  margin-top: 10px;
+}*/
+#CedWad_PushDetails ,#CedWad_createOrderOnAliexpress ,.CedWad_successmsg.CedWad_successmsg_wrap{
+  float: left;
+  margin-right: 15px;
+}
+.CedWad_credentials_row_wrap label {
+  margin-right: 0;
+  padding-left: 0;
+}
+/*=================================================================
+=            CedWad_list_content_wrapper CedWad_padding_main            =
+=================================================================*/
+.CedWad_list_content_wrapper.CedWad_padding_main .CedWad_products_wrapper .CedWad_product_wrapper_border {
+  border: 1px solid #cccccc;
+  border-radius: 3px;
+  margin-bottom: 20px;
+  min-height: 360px;
+  padding: 10px;
+}
+.CedWad_list_content_wrapper.CedWad_padding_main .CedWad_products_wrapper .CedWad_product_wrapper_border .CedWad_main_wrapper a {
+  padding: 0;
+}
+.CedWad_list_content_wrapper.CedWad_padding_main .CedWad_products_wrapper .CedWad_product_wrapper_border  .CedWad_product_image img {
+  max-width: 100%;
+  width: auto;
+}
+.CedWad_list_content_wrapper.CedWad_padding_main .CedWad_products_wrapper .CedWad_product_wrapper_border .CedWad_product_add_to_bunch_button .CedWad_add_to_bunch_button {
+  margin-right: 0;
+  margin-top: 10px;
+}
+.CedWad_list_content_wrapper.CedWad_padding_main .CedWad_product_wrapper{
+  position: relative;
+  margin-bottom: 20px;
+}
+.CedWad_list_content_wrapper.CedWad_padding_main .CedWad_products_wrapper .CedWad_product_wrapper_border .CedWad_product_add_to_bunch_button {
+  bottom: 30px;
+  font-size: 10px;
+  opacity: 0;
+  position: absolute;
+  text-align: center;
+  width: 180px;
+  z-index: 9999999;
+}
+.CedWad_list_content_wrapper.CedWad_padding_main .CedWad_products_wrapper .CedWad_product_wrapper_border .CedWad_product_add_to_bunch_button  .CedWad_remove_from_bunch_button{
+  background: #ccc;
+  color: #000;
+  border: 1px solid #ccc;
+}
+.CedWad_list_content_wrapper.CedWad_padding_main .CedWad_products_wrapper .CedWad_product_wrapper_border .CedWad_product_add_to_bunch_button .CedWad_add_to_bunch_button {
+  background: #ffffff none repeat scroll 0 0;
+  border: 1px solid #ffffff;
+  color: #000000;
+}
+.CedWad_list_content_wrapper.CedWad_padding_main .CedWad_products_wrapper .CedWad_add_to_bunch_button, .CedWad_list_content_wrapper.CedWad_padding_main .CedWad_products_wrapper .CedWad_remove_from_bunch_button {
+  display: block;
+  padding: 4px 10px;
+  text-align: center;
+  width: 100%;
+  font-size: 13px;
+}
+.CedWad_list_content_wrapper.CedWad_padding_main .CedWad_products_wrapper  .CedWad_product_add_to_bunch_button.CedWad_remove_from_bunch_button_parent_wrapper::after ,
+.CedWad_list_content_wrapper.CedWad_padding_main .CedWad_products_wrapper .CedWad_product_add_to_bunch_button.CedWad_add_to_bunch_button_parent_wrapper:after {
+  content: "-";
+  font-size: 30px;
+  left: 12px;
+  line-height: 19px;
+  position: absolute;
+  top: 0;
+}
+.CedWad_list_content_wrapper.CedWad_padding_main .CedWad_products_wrapper .CedWad_product_add_to_bunch_button.CedWad_add_to_bunch_button_parent_wrapper::after {
+  color: #000000;
+  content: "+";
+  line-height: 41px;
+}
+.CedWad_list_content_wrapper.CedWad_padding_main .CedWad_products_wrapper .CedWad_product_wrapper_border:hover  .CedWad_product_add_to_bunch_button {
+  opacity: 1;
+  transition: all 0.3s linear 0s;
+}
+.CedWad_product_image-overlay {
+  background: #000000 none repeat scroll 0 0;
+  content: "";
+  height: 0;
+  left: 0;
+  padding: 15px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  visibility: hidden;
+  width: 100%;
+}
+.CedWad_product_image-overlay-border {
+  border: 2px solid #cccccc;
+  border-radius: 2px;
+  height: 100%;
+  opacity: 0;
+  visibility: hidden;
+}
+.CedWad_product_wrapper_border:hover .CedWad_product_image-overlay-border {
+  opacity:1;
+  visibility: visible;
+  transition: all 0.3s linear 0s;
+}
+.CedWad_product_wrapper_border:hover .CedWad_product_image-overlay {
+  height: 100%;
+  opacity: 0.9;
+  transition: all 0.3s linear 0s;
+  visibility: visible;
+}
+.CedWad_pagination_wrapper .CedWad_nextPage{
+  float: right;
+}
+.CedWad_pagination_wrapper .CedWad_previousPage{
+ float: left;
+}
+.CedWad_pagination_wrapper .CedWad_nextPage, .CedWad_pagination_wrapper .CedWad_previousPage {
+  border-color: #cccccc;
+  border-radius: 30px;
+  padding: 7px 20px;
+}
+.CedWad_list_content_wrapper.CedWad_padding_main .CedWad_products_wrapper .CedWad_product_wrapper_border.CedWad_already_added_product_wrapper_border {
+  border-width: 2px;
+}
+.CedWad_list_content_wrapper.CedWad_padding_main .CedWad_products_wrapper .CedWad_product_wrapper_border.CedWad_already_added_product_wrapper_border::after {
+  border-right: 40px solid rgba(0, 0, 0, 0);
+  border-top: 40px solid #cccccc;
+  content: "";
+  left: 15px;
+  line-height: 0;
+  position: absolute;
+  top: 0;
+  width: 0;
+}
+.CedWad_list_content_wrapper.CedWad_padding_main .CedWad_products_wrapper .CedWad_product_wrapper_border.CedWad_already_added_product_wrapper_border::before {
+  content: "";
+  font-family: "Glyphicons Halflings";
+  left: 20px;
+  position: absolute;
+  top: 4px;
+  z-index: 9;
+}
+.CedWad_list_content_wrapper.CedWad_padding_main .CedWad_products_wrapper .CedWad_product_wrapper_border.CedWad_already_added_product_wrapper_border:hover::before,
+.CedWad_list_content_wrapper.CedWad_padding_main .CedWad_products_wrapper .CedWad_product_wrapper_border.CedWad_already_added_product_wrapper_border:hover::after{
+  content: "";
+  opacity: 0;
+}
+/*=====  End of CedWad_list_content_wrapper CedWad_padding_main  ======*/
+@media only screen and (max-width: 930px) and (min-width: 768px){
+  .CedWad_input_field_wrapper input {
+    width: 60%;
+  }
+}
+@media only screen and (max-width: 768px){
+  .CedWad_input_field_wrapper input {
+    width: 98%;
+    margin-top: 15px;
+  }
+  .CedWad_input_field_wrapper label {
+    margin-right: 0;
+    max-width: 100%;
+    text-align: left;
+    width: 100%;
+  }
+}
+.CedWad_heading_table{
+  margin-bottom: 0px !important;
+}
+.CedWad_button_filter_table
+{
+  float: right;
+  margin-top: -30px !important;
+}
+.CedWad_filter_success_msg,.CedWad_filter_error_msg{
+  display: none;
+}
+.filter_error_msg_content,.bunch_error_msg_content{
+  color: red; 
+}
+.filter_success_msg_content,.bunch_success_msg_content{
+  color: green; 
+}
+.CedWad_main_wrapper .cedWad-filter-row a {
+  display: inline;
+  padding: 0;
+}
+.CedWad_input_field_wrapper.CedWad_padding_main > p {
+  margin-bottom: 20px;
+}
+.CedWad_input_field_wrapper.CedWad_padding_main > p.cedWad-filter-row {
+  margin-top: 0;
+}
+/*@media only screen and (max-width: 991px) and (min-width: 767px){
+  .CedWad_errormsg, .CedWad_errormsg_tracking, .CedWad_successmsg{
+    right: 4px;
+  }
+  }*/
+  @media only screen and (max-width: 767px){
+    .error_msg_content::after, .error_msg_tracking_content::after {
+      left: 50%;
+      right: auto;
+      top: -17px;
+      transform: rotate(180deg);
+    }
+    #CedWad_transactionId, #CedWad_appKey {
+      margin-bottom: 20px;
+    }
+    .error_msg_content, .error_msg_tracking_content, .success_msg_content {
+      position: relative;
+    }
+  }
+  .CedWad_wrap .tablenav .pagination-links span.tablenav-pages-navspan {
+   height: auto!important;
+}
